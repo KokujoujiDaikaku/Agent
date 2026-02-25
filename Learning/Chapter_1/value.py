@@ -199,7 +199,7 @@ class MainExecute:
 
 run_llm = MainExecute(
     model="deepseek-v3-2-251201",
-    api_key="dbd65e9a-1333-4111-977b-d0d4dbb298ac",
-    tavily_api_key="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"
+    api_key="",
+    tavily_api_key=""
 )
 run_llm.main_cycle()
