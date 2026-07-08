@@ -7,7 +7,7 @@ from classic_agent import HelloAgentsLLM
 
 # 加载 .env 文件中的环境变量，处理文件不存在异常
 try:
-    env_path = Path(__file__).parent / ".env"
+    env_path = Path(__file__).parent / "../.env"
     load_dotenv(dotenv_path=env_path)
 except FileNotFoundError:
     print("警告：未找到 .env 文件，将使用系统环境变量。")
