@@ -5,7 +5,7 @@ import os
 from read_file import ReadFile
 
 
-class DealChromaDB():
+class DealChromaDB:
     def __init__(self):
         # 持久化存储，在会话之间保存数据
         self.client = chromadb.PersistentClient(path="chroma_bd")

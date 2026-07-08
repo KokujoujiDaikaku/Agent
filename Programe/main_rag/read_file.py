@@ -3,7 +3,7 @@ import PyPDF2
 import docx
 
 
-class ReadFile():
+class ReadFile:
     def __init__(self, file_path: str):
         self._file_path = file_path
 

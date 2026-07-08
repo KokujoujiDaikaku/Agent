@@ -2,7 +2,7 @@ import uuid
 from datetime import datetime
 
 
-class HistoryChat():
+class HistoryChat:
     def __init__(self):
         # 内存会话机制（生产环境可改为持久化存储）
         self.chat_sessions = {}

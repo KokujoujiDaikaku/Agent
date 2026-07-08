@@ -15,7 +15,7 @@ except Exception as e:
     print(f"警告：加载 .env 文件时出错: {e}")
 
 
-class Anaphora_Resolution():
+class Anaphora_Resolution:
     """
     用于消解指代，当用户输入“上一个”、“它”等指代词的时候，保证模型能理解并从历史聊天中获取对应信息
     """

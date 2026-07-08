@@ -16,7 +16,7 @@ except Exception as e:
     print(f"警告：加载 .env 文件时出错: {e}")
 
 
-class MainLLM():
+class MainLLM:
     def __init__(self, model: str = None, apikey: str = None, base_url: str = None, timeout: int = None):
         """
         Init openai client. Use the passed params first; if None are provided, load values from environment variables.

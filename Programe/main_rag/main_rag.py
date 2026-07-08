@@ -1,7 +1,7 @@
-from ..main_llm.main_llm import MainLLM
+from main_llm.main_llm import MainLLM
 
 
-class MainRAG():
+class MainRAG:
     @staticmethod
     def build_prompt(context: str, question: str) -> str:
         return f"""你是一个文档助手。仅通过提供的文档进行回答。若文档中不含有答案，则直接回复：“我没有相关的信息。”。
